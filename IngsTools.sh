@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/system/xbin/bash
+clear
 #yang record mandul tuhuh keturunan,, aminnnnn
 #peler nya ga bisa ngaceng , aminnnn
 #kontol nya nanahan, aminnn
 #AMINNNNN
 #CONTACT ADMIN :[ 089524683826 ]
-clear
 echo "\033[31;1m██╗███╗   ██╗ ██████╗ ███████╗███████╗"
 echo "\033[31;1m██║████╗  ██║██╔════╝ ██╔════╝██╔════╝"
 echo "\033[31;1m██║██╔██╗ ██║██║  ███╗███████╗███████╗"
@@ -23,7 +23,6 @@ echo "\033[37;1mTolong Hargai Pembuat Script,Dan Jangan Record"
 login="BLACKCYBERTEAM"
 while [ "$siapa" != "$login" ]
 do
-echo ""
         read -p "Silahkan Login : " siapa
 done
 echo ""

@@ -1,10 +1,10 @@
-#!/system/xbin/bash
-clear
+#usr/bin/bash
 #yang record mandul tuhuh keturunan,, aminnnnn
 #peler nya ga bisa ngaceng , aminnnn
 #kontol nya nanahan, aminnn
 #AMINNNNN
 #CONTACT ADMIN :[ 089524683826 ]
+clear
 echo "\033[31;1m██╗███╗   ██╗ ██████╗ ███████╗███████╗"
 echo "\033[31;1m██║████╗  ██║██╔════╝ ██╔════╝██╔════╝"
 echo "\033[31;1m██║██╔██╗ ██║██║  ███╗███████╗███████╗"
@@ -13,19 +13,7 @@ echo "\033[37;1m██║██║ ╚████║╚██████╔╝
 echo "\033[37;1m╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝ V.01.1"
 echo ""
 echo "\033[37;1m═════════════════════════════════════════════"
-echo ""
-echo ""
-echo "\033[37;1mSilahkan Login Jika Sudah Mempunya Password Tools ini"
-echo "\033[37;1mJika Tidak Mempunyai Password Untuk Login Ini"
-echo "\033[37;1mSilahkan Hubungi Admin,,Untuk Meminta Password Login"
-echo "\033[37;1mContact : [  089524683826  ]"
-echo "\033[37;1mTolong Hargai Pembuat Script,Dan Jangan Record"
-login="BLACKCYBERTEAM"
-while [ "$siapa" != "$login" ]
-do
-        read -p "Silahkan Login : " siapa
-done
-echo ""
+sleep 3
 clear
 echo "\033[31;1m            .:okOOOkdc.           .cdkOOOko:."
 echo "\033[31;1m          .xOOOOOOOOOOOOc       cOOOOOOOOOOOOx."
@@ -108,7 +96,7 @@ echo "\033[32;1m╚════════════════════�
 read -p "SILAHKAN PILIH TOOLS : " pilih
 if [ $pilih = 1 ]
 then
-cd $HOME
+clear
 pkg install git
 pkg update && pkg upgrade
 pkg install python2
@@ -122,7 +110,7 @@ fi
 
 if [ $pilih = 2 ]
 then
-cd $HOME
+clear
 pkg install git
 pkg install python
 pkg install python2
@@ -137,7 +125,7 @@ fi
 
 if [ $pilih = 3 ]
 then
-cd $HOME
+clear
 pkg install git
 pkg install python2
 pip2 install requests
@@ -151,7 +139,7 @@ fi
 
 if [ $pilih = 4 ]
 then
-cd $HOME
+clear
 pkg install git
 pkg install python
 pip2 install requests
@@ -166,7 +154,7 @@ fi
 
 if [ $pilih = 5 ]
 then
-cd $HOME
+clear
 pkg install git
 pkg install python2
 pkg install python
@@ -179,7 +167,7 @@ fi
 
 if [ $pilih = 6 ]
 then
-cd $HOME
+clear
 pkg install git
 pkg install python
 pip2 install requests
@@ -192,7 +180,7 @@ fi
 
 if [ $pilih = 7 ]
 then
-cd $HOME
+clear
 pkg install php
 pkg install git
 pkg install python
@@ -208,7 +196,7 @@ fi
 
 if [ $pilih = 8 ]
 then
-cd $HOME
+clear
 pkg install git
 pkg install python2
 pkg install python
@@ -222,7 +210,7 @@ fi
 
 if [ $pilih = 9 ]
 then
-cd $HOME
+clear
 pkg install git
 pkg install python2
 pkg install python
@@ -236,7 +224,6 @@ fi
 
 if [ $pilih = 10 ]
 then
-cd $HOME
 clear
 echo "\033[32;1mTOOLS INI MEMBUTUHKAN TOOLS METASPLOIT FRAMEWORK..."
 echo "\033[32;1mDAN MEMBUTUHKAN SERVER NGROK..."
@@ -255,7 +242,7 @@ fi
 
 if [ $pilih = 11 ]
 then
-cd $HOME
+clear
 pkg update && pkg upgrade
 pip2 install urllib3 chardet certifi idna requests
 pkg install git
@@ -272,7 +259,7 @@ fi
 
 if [ $pilih = 12 ]
 then
-cd $HOME
+clear
 pkg update && pkg upgrade
 pkg install git
 pkg install python3
@@ -289,7 +276,7 @@ fi
 
 if [ $pilih = 13 ]
 then
-cd $HOME
+clear
 echo "\033[36;1mTERIMA KASIH TELAH MENGGUNAKAN TOOLS KAMI"
 echo "\033[36;1mJIKA ADA ERROR PADA SCRIPT INI TOLONG SEGERA BERITAHU ADMIN"
 exit
